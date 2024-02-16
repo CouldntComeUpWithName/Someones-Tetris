@@ -30,6 +30,9 @@
     <ClCompile Include="utitlity\ResourceManager.inl">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="utitlity\Randomizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\pch.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="utitlity\ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utitlity\Randomizer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

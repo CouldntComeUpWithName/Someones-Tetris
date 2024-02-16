@@ -8,8 +8,7 @@ Game::Game()
 
 void Game::Run()
 {
-	if(!TextureManager::Load("tiles", "../Tetris/resources/assets/tiles.png"))
-		std::cout << "File Loading is failed\n";
+	TextureManager::Load("tiles", "../Tetris/resources/assets/tiles.png");
 
 	tiles.setTexture(TextureManager::Get("tiles"));
 

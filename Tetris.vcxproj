@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="utitlity\Randomizer.cpp" />
     <ClCompile Include="utitlity\ResourceManager.inl">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
@@ -36,6 +37,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="utitlity\Randomizer.h" />
     <ClInclude Include="utitlity\ResourceManager.h" />
     <ClInclude Include="src\Settings.h" />
     <ClInclude Include="src\Game.h" />

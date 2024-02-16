@@ -2,6 +2,8 @@
 
 //STD
 #include<iostream>
+#include<random>
+#include<ctime>
 
 //SFML
 #include<SFML/Graphics.hpp>
@@ -10,7 +12,7 @@
 
 //Data Structures
 #include<unordered_map>
-
+#include<vector>
 
 //utilities
 #include<memory>

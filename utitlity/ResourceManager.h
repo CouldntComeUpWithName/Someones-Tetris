@@ -8,8 +8,8 @@ public:
 	ResourceManager();
 	
 	template<typename ...Args>
-	static bool Load(const IdentifierType& id, Args&&... args);
-	static bool Load(const IdentifierType& id);
+	static void Load(const IdentifierType& id, Args&&... args);
+	static void Load(const IdentifierType& id);
 	
 	static ResourceType& Get(const IdentifierType& id);
 	
