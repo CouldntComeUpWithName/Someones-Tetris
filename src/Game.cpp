@@ -1,14 +1,19 @@
 #include "pch.h"
 #include "Game.h"
+#include"filesystem.h"
 
 Game::Game()
 	:m_window(sf::VideoMode::getDesktopMode(), "Tetris", sf::Style::Close | sf::Style::Titlebar)
 {
+	sf::Vector2u Window_Size = sf::Vector2u(sf::VideoMode::getDesktopMode().width, sf::VideoMode::getDesktopMode().height) / 2u;
+	m_window.setSize(Window_Size);
+
 }
 
 void Game::Run()
 {
-	TextureManager::Load("tiles", "../Tetris/resources/assets/tiles.png");
+
+	TextureManager::Load("tiles", get_absolute_path("\\resources\\assets\\tiles.png"));
 
 	tiles.setTexture(TextureManager::Get("tiles"));
 

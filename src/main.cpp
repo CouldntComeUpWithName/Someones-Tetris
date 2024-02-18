@@ -1,8 +1,7 @@
-#include"pch.h"
-
+﻿#include"pch.h"
 #include"Game.h"
-#include"../utitlity/Randomizer.h"
 
+#if 1
 int main()
 {
 	Game game;
@@ -10,3 +9,4 @@ int main()
 
 	return 0;
 }
+#endif

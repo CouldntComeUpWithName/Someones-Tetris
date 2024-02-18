@@ -1,9 +1,12 @@
 #pragma once
+//#define RELEASE_PRODUCT
 
 //STD
 #include<iostream>
+#include<string>
 #include<random>
 #include<ctime>
+#include<direct.h>
 
 //SFML
 #include<SFML/Graphics.hpp>
@@ -19,3 +22,13 @@
 
 //threads
 #include<thread>
+
+
+//Globals
+//#include"Globals.h"
+
+#ifdef _WIN32
+
+//#include<windows.h>
+
+#endif

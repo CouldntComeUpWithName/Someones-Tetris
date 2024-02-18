@@ -27,10 +27,13 @@
     <ClCompile Include="src\Settings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utitlity\ResourceManager.inl">
+    <ClCompile Include="src\ResourceManager.inl">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utitlity\Randomizer.cpp">
+    <ClCompile Include="src\Tetromino.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,10 +47,16 @@
     <ClInclude Include="src\Settings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utitlity\ResourceManager.h">
+    <ClInclude Include="src\ResourceManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utitlity\Randomizer.h">
+    <ClInclude Include="src\Randomizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tetromino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\filesystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

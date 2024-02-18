@@ -1,6 +1,6 @@
 #pragma once
-#include"../src/pch.h"
-#include "ResourceManager.h"
+#include"pch.h"
+#include"ResourceManager.h"
 
 template<typename ResourceType, typename IdentifierType>
 ResourceManager<ResourceType, IdentifierType>* ResourceManager<ResourceType, IdentifierType>::m_manager_ptr = nullptr;

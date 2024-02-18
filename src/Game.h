@@ -1,6 +1,6 @@
 #pragma once
 #include"pch.h"
-#include"../utitlity/ResourceManager.h"
+#include"ResourceManager.h"
 
 class Game
 {

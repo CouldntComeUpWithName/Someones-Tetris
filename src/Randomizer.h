@@ -1,5 +1,5 @@
 #pragma once
-#include"../src/pch.h"
+#include"../pch.h"
 
 template<typename IntegerType = int, typename RealType = double>
 class Randomizer
